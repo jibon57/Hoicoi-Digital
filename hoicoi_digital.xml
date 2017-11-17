@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extension method="upgrade" version="1.5" type="plugin" group="vmcustom" >
+    <name>VMCustom - Hoicoi Digital</name>
+    <creationDate>June 27 2016</creationDate>
+    <author>Jibon Lawrence Costa</author>
+    <authorUrl>http://www.hoicoimasti.com</authorUrl>
+    <copyright>Copyright (C) Hoicoi Extension Portal. All rights reserved.</copyright>
+    <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+    <version>3.0</version>
+    <description>Sell downloadable products</description>
+    <languages>
+        <language tag="en-GB">language/en-GB/en-GB.plg_vmcustom_hoicoi_digital.ini</language>
+    </languages>
+
+    <files>
+        <filename plugin="hoicoi_digital">hoicoi_digital.php</filename>
+		<folder>language</folder>
+    </files>
+    <vmconfig>
+        <fields name="params">
+            
+        </fields>
+    </vmconfig>
+    <params addpath="/administrator/components/com_virtuemart/elements">
+        
+    </params>
+</extension>
